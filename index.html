@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MR.Computer</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<style>
+main{
+    display: flex;
+}
+.main{
+    border: 0.2vw solid ;
+    width: 70%;
+    height: 120vh;
+    margin: 0.8vw;
+    padding: 2vw;
+    font-style: initial;
+    color: white;
+}
+.main h1{
+    text-align: center;
+    padding: 1vw;
+    
+}
+h3{
+    font-size: 1.6vw;
+    text-decoration: underline;
+}
+h2{
+    font-size: 1.8vw;
+    text-decoration: underline;
+}
+h4{
+    font-size: 1.5vw;
+}
+p{
+    font-size: 1.4vw;
+}
+.main li{
+    font-size: 1.2vw;
+}
+.leftbar{
+    border: 0.3vw solid ;
+    width: 25%;
+    height: 57vw;
+    margin: 0.8vw;
+    text-align: center;
+    position: relative;
+    background-image: url('slideshow/slides (1).avif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0.2vw 0.2vw 0.5vw white;
+    animation:show 10s infinite ease-in-out ;
+}
+@keyframes show{
+    0%{
+        background-image: url('slideshow/slides (1).avif');
+    }
+    25%{
+        background-image: url('slideshow/slides (2).avif');
+    }
+    75%{
+        background-image: url('slideshow/slides (3).avif');
+    }
+    100%{
+        background-image: url('slideshow/slides (4).avif');
+    }
+}
+
+.main li{
+    float: none;
+}
+.sale{
+    display: flex;
+}
+img{
+    width: 16vw;
+    height: 16vw;
+    float: right;
+    
+}
+.sale img{
+    width: 15vw;
+    height: 15vw;
+    float: none;
+    border-right: 0.2vw solid white;
+}
+h6{
+    float: left;
+    margin-left: 4vw;
+    margin-right: 7vw;
+    font-size: 1.3vw;
+}
+</style>
+<body>
+    <header>
+        <h1>MR. Computer</h1>
+        <h5>Its all About Specs</h5>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="deals.html">Deals</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="leftbar">
+
+        </div>
+        <div class="main">
+            <hr>
+            <h1>Welcome To Mr. Computer</h1>
+            <hr>
+            <br>
+            <img src="home.png" alt="no image found">
+            <h4>Build the PC of your Dreams</h4>
+            <p>You can Build the PC of yor dream from grapics card to cpu case everything is available here, with
+                porfessional Guide of your PC and PC builders. You just have to place the order and out tecnicain team
+                is here to bulid it for you and deliver it to your door step. </p>
+            <br><br>
+            <hr>
+            <br><br>
+            <h2>About Us</h2><br>
+            <p>MR Computer established in 2015 by Syed Muhammd Minhaj. A place where you build your dream PC . We have the Best guide and technician for 
+                your PC. Our main branch in at main gulshan opposite to luckyone mall.</p>
+                <br><br>
+                <hr>
+                <br><br>
+                <h2>Sale</h2>
+                <div class="sale">
+                    <img src="./products/monitors/monitor3.png" alt="">
+                    <img src="./deals/pc (3).png" alt="">
+                </div>
+                <h6>25% Off</h6>
+                <h6>30% Off</h6>
+                <br><br>
+                <hr>
+                <br><br>
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: syedminhajbhai@gmail.com</li>
+                    <li>Whatsapp: 03324456564</li>
+                    <li>Phone: 03324456564</li>
+                    <li>Tel: 02136548455</li>
+                    <li>Helpline: 02126315894</li>
+                </ul>
+        </div>
+    </main>
+</body>
+</html>

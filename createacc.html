@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<style>
+    body{
+        background-image:url('gaming-pc-truro.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        
+    }
+    h1{
+        text-align: center;
+        margin-top: 15vw;
+    }
+    form{
+        /* border: 0.2vw solid black; */
+        width: 25vw;   
+        margin-left: 35vw;
+        text-align: center;
+        font-weight: bold;
+        padding: 2vw;
+        margin-top: 3vw;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.267);
+        backdrop-filter: blur(2px); 
+        position: relative;
+    }
+    a{
+        text-align: center;
+        color: white;
+    }
+    a:hover{
+        color: green;
+    }
+</style>
+<body>
+    <h1>Sign Up to MR.Computer</h1>
+    <b><form action="index.html">
+        <fieldset>
+            <legend>Register</legend>
+            <label for="">First Name</label>
+            <input type="text" placeholder="First Name" required><br><br>
+            <label for="">Last Name</label>
+            <input type="text" placeholder="Last Name" required><br><br>
+            <label for="">Birthday</label>
+            <input type="date" required>
+            <br><br><label for="">Email</label>
+            <input type="Email" placeholder="Email" required><br><br>
+            <label for="">Password</label>
+            <input type="password" placeholder="Password" required><br><br>
+            <input type="checkbox" name="remember" id="">
+            <label for="">Remember me</label><br><br>
+            <input type="submit" value="SIGN IN" style="border: 0.2vw solid; background-color: dodgerblue; color: white;">
+            <br><br> <a href="login.html">Or Log in</a>
+       </fieldset>
+    </form>
+</body>
+</html>

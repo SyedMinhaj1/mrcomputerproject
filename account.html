@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<style>
+main{
+        display: flex;
+        border: 2px solid black;
+        margin: 2vw 1vw;
+        box-sizing: border-box;
+}
+.acc{
+        width: 25%;
+        height: 90vh;
+        border-right: 2px solid white;
+}
+.cart{
+        width: 75%;
+        height: 60vw;
+       
+}
+.circle{
+        width: 18vw;
+        height: 18vw;
+        margin: 2.5vw;
+}
+.circle img{
+        width: 17.5vw;
+        height: 18vw;
+        border-radius: 50%;
+        border: 0.5vw solid black;
+    }
+h3{
+    font-size: 1.4vw;
+    padding-top: 4vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 0.2vw solid white;
+}
+h4{
+    margin-top: 6vw;
+    color: white;
+    font-size: 1.7vw;
+}
+.acc a{ 
+    color: white; 
+    display: block;
+    background-color: red;
+    text-align: center;
+    padding: 0.9vw; 
+    margin: 55vh 3vw;
+    text-decoration: none;
+}
+.acc a:hover{
+    color: red;
+    background-color: white;
+}
+.a1{
+    display: flex;
+    margin: 1vw 1vw;
+    width: 71vw;
+    height: 7vw;
+    border: 2px solid black;
+}
+.a1 img{
+    width: 6.5vw;
+    height: 6.5vw;
+}
+p{
+    
+    margin: 2vw 20vw;
+    color: white;
+    font-size: 1.4vw;
+    word-spacing: 0.5vw;
+}
+h6{
+    margin-top: 4vw;
+    color: white;
+    font-size: 1.5vw;
+    font-family: monospace;
+}
+.cart h2{
+    font-size: 2vw;
+    float: left;
+    margin: 1vw 2vw;
+    text-decoration: underline;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#t1{
+    margin-left: 18vw;
+    margin-right: 20vw;
+}
+.cash{
+    display: flex;
+    width: 71vw;
+    height: 6vw;
+    border: 2px solid black;
+    margin: 53vh 1vw;
+}
+.cash p{
+    margin: 0.6vw;
+    font-size: 1.4vw;
+}
+#total{
+    margin-left: 52vw;
+}
+</style>
+<body>
+    <header>
+        <h1>MR. Computer</h1>
+        <h5>Its all About Specs</h5>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="deals.html">Deals</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="acc">
+            <div class="circle">
+                <img src="man.avif" alt="not found">
+                <h3>Syed Minhaj</h3>
+                <h3>sye********ai@gmail.com</h3>
+                <h4>Balance: <br>
+                <br>Rs.50,000</h4>
+            </div>
+            <a href="login.html">LOG OUT</a>
+        </div>
+        <div class="cart">
+            <h2>Product</h2>
+            <h2 id="t1">Descricption</h2>
+            <h2 id="t2">Amount</h2>
+            <div class="a1">
+                <img src="./products/monitors/monitor2.png" alt="">
+                <p>ASUS ROD Led, 41.5'',<br> 138 Hz, 3840 x 2160</p>
+                <h6>Rs.32,500</h6>
+            </div>
+            <div class="a1">
+                <img src="./products/ram/ram4.png" alt="">
+                <p>Thermaltake TOUGHRAM <br> 16GB x 2 RGB DDR4</p>
+                   <h6>Rs.33,499</h6>
+                </div>
+                <div class="cash">
+                    <p>Amount
+                    <br>Delivery Charges 
+                    <br>Total</p>
+                    <div id="total">
+                        <p>65,999
+                            <br>500
+                            <br>67,499
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
